@@ -1,0 +1,68 @@
+{
+  "start": "A white room",
+  "rooms": [
+    {
+      "name": "A white room",
+      "desc": "You are in a simple room with white walls.",
+      "exits": {
+        "north": "A blue room",
+        "northeast": "A purple room",
+        "northwest": "A green room",
+        "east": "A red room"
+      }
+    },
+    {
+      "name": "A blue room",
+      "desc": "This room is simple, too, but with blue walls.",
+      "exits": {
+        "east": "A purple room",
+        "south": "A white room"
+      },
+      "items": [
+        "key"
+      ]
+    },
+    {
+      "name": "A green room",
+      "desc": "You are in a simple room, with bright green walls.",
+      "exits": {
+        "southeast": "A white room"
+      },
+      "items": [
+        "ball"
+      ]
+    },
+    {
+      "name": "A red room",
+      "desc": "This room is fancy. It's red!",
+      "exits": {
+        "north": "A purple room",
+        "west": "A white room"
+      },
+      "items": [
+        "rose"
+      ]
+    },
+    {
+      "name": "A purple room",
+      "desc": "This room is quite elegant. It's painted in a deep purple color.",
+      "exits": {
+        "southwest": "A white room",
+        "west": "A blue room",
+        "south": "A red room"
+      },
+      "items": [
+        "crown"
+      ]
+    }
+  ],
+  "help": [
+    "go ...",
+    "get ...",
+    "drop ...",
+    "look",
+    "inventory",
+    "quit",
+    "help"
+  ]
+}
